@@ -47,7 +47,7 @@ class Sample:
     def __init__(self, sample_id: str, sample_type: SampleType):
         self.sample_id = sample_id
         self.sample_type = sample_type
-        self.analyses = []  # HER VAR FEJLEN: Nu initialiseres listen korrekt
+        self.analyses = []
         self.status = SampleStatus.REGISTERED
         self._assign_testing_program()
 
