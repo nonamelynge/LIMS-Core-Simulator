@@ -1,7 +1,7 @@
 from lims_enums import AnalysisStatus, SampleStatus, SampleType
 
 class Analysis:
-    """Repræsenterer en standard kemisk eller mikrobiologisk test."""
+    """Repræsenterer en standard kemisk eller mikrobiologisk test """
     def __init__(self, name: str, lower_limit: float, upper_limit: float, decimals: int = 1):
         self.name = name
         self.lower_limit = lower_limit
